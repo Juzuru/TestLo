@@ -11,5 +11,5 @@
        - checkout
        - run:
           name: Testing application
-          command: dotnet buildd
+          command: dotnet build
           working_directory: ./TestLo
