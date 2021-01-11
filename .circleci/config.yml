@@ -4,13 +4,12 @@
   win: circleci/windows@2.2.0
 
  jobs:
-  build:
-     executor:
-      name: win/default
-      shell: cmd.exe     
-      
+   build:
+     executor: win/default     
+    #dotnet buildd
      steps:
-      - checkout
-      - run:
-          name: "Test the executable"
-          command: cd .\TestLo
+       - checkout
+       - run:
+          name: Testing application
+          command: dotnet buildd
+          working_directory: ~/TestLo
