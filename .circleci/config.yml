@@ -7,8 +7,10 @@
   build:
      executor:
       name: win/default
-      shell: powershell.exet     
-    
+      shell: cmd.exe     
+      
      steps:
-       - checkout
-       - run: dotnet build
+      - checkout
+      - run:
+          name: "Test the executable"
+          command: cd .\TestLo
