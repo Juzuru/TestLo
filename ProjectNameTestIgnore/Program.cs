@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Git_TestLo
+namespace ProjectNameTestIgnore
 {
     public class Program
     {

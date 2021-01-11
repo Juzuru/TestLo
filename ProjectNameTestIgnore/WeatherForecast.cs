@@ -1,6 +1,6 @@
 using System;
 
-namespace Git_TestLo
+namespace ProjectNameTestIgnore
 {
     public class WeatherForecast
     {

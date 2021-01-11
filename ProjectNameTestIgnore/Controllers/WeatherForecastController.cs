@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Git_TestLo.Controllers
+namespace ProjectNameTestIgnore.Controllers
 {
     [ApiController]
     [Route("[controller]")]
