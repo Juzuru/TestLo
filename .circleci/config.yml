@@ -6,10 +6,10 @@
  jobs:
    build:
      executor: win/default     
-    #dotnet buildd
+    
      steps:
        - checkout
        - run:
           name: Testing application
           command: dotnet buildd
-          working_directory: ~/TestLo
+          working_directory: ./TestLo
