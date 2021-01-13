@@ -7,7 +7,8 @@ jobs:
     steps:
     - checkout
     - run:
-        command: dotnet build .\ProjectNameTestIgnore
+        command: dotnet build .\ProjectNameTestIgnore > /tmp/TestAtr
+    - store_arti
     resource_class: windows.medium
     shell: powershell.exe -ExecutionPolicy Bypass
 workflows:
