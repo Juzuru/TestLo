@@ -6,7 +6,7 @@
  jobs:
    build:
      executor: win/default     
-     working_directory: ~/ProjectNameTestIgnore
+     
      steps:
        - checkout
        - run: dotnet build .\ProjectNameTestIgnore
