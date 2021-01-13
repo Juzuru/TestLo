@@ -9,7 +9,7 @@ jobs:
     - run:
         command: dotnet build .\ProjectNameTestIgnore > /tmp/TestAtr
     - store_artifacts:
-        path: /tmp/TestAtr
+        path: /ProjectNameTestIgnore/bin/Debug/netcoreapp3.1
         destination: AtrFile
     resource_class: windows.medium
     shell: powershell.exe -ExecutionPolicy Bypass
