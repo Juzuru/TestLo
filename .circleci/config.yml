@@ -6,7 +6,7 @@
  jobs:
    build:
      executor: win/default     
-     working_directory: ~/TestLo
+     working_directory: ~/TestLo/ProjectNameTestIgnore
      steps:
        - checkout
-       - run: dotnet build .\TestLo
+       - run: dotnet build
