@@ -8,7 +8,9 @@ jobs:
     - checkout
     - run:
         command: dotnet build .\ProjectNameTestIgnore > /tmp/TestAtr
-    - store_arti
+    - store_artifacts:
+        path: /tmp/TestAtr
+        destination: AtrFile
     resource_class: windows.medium
     shell: powershell.exe -ExecutionPolicy Bypass
 workflows:
